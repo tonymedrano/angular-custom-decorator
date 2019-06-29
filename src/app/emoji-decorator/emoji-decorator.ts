@@ -12,7 +12,7 @@
 
  //. Deorator in Angular (TypeScript) #1
 
-const Emoji = (emoji: string): void => {
+const Emoji = (emoji: string): any => {
     console.log('Who comes first?!...', emoji);
     
     return (target: Object, key: string | symbol) => {
